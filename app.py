@@ -6,10 +6,10 @@ import numpy as np
 model = tf.keras.models.load_model('my_model.h5')
 
 # Title of the app
-st.title('Machine Learning Model Demo')
+st.title('Stabilization of high entropy alloys using ML by Milad Taghizadeh')
 
 # Add some text explanation
-st.write("This is a demo of my trained model. Please input the necessary data below:")
+st.write("Please input the necessary data below:")
 
 # Create input fields for 8 features
 input_1 = st.number_input("Input Feature 1", min_value=0.0, max_value=0.5, value=0.1)
