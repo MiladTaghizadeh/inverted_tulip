@@ -31,6 +31,4 @@ app.py  : This is the code for our Streamlit software
 highest_entropy_5000_samples.mat : This is our data from mathematical model
 my_model.h5 : This is our saved model for the Streamlit software
 
-
-
-
+To run each analysis you need to run each .py code. For example, for linear regression run linearRegression.py.
